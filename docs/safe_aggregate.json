@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "measurement": "observable_confirmed_skill_file_reads",
+  "window": {
+    "start": "2026-09-29T00:00:00+08:00",
+    "end_exclusive": "2026-10-06T00:00:00+08:00",
+    "utc_offset_hours": 8
+  },
+  "coverage": {
+    "files_in_inventory": 1693,
+    "files_scanned": 77,
+    "tool_active_sessions": 40,
+    "skill_reading_sessions": 35,
+    "distinct_skills_confirmed": 25,
+    "confirmed_skill_reads": 423,
+    "unique_tool_call_events": 8996,
+    "copied_call_occurrences_removed": 0,
+    "unconfirmed_skill_read_candidates": 40
+  },
+  "target": {
+    "skill": "proactive-problem-solving",
+    "sessions": 29,
+    "confirmed_reads": 128,
+    "rank": 1,
+    "share_of_tool_sessions_pct": 72.5,
+    "share_of_skill_reading_sessions_pct": 82.86
+  },
+  "ranking": [
+    {
+      "skill": "proactive-problem-solving",
+      "sessions": 29,
+      "confirmed_reads": 128,
+      "rank": 1,
+      "share_of_tool_sessions_pct": 72.5,
+      "share_of_skill_reading_sessions_pct": 82.86
+    },
+    {
+      "skill": "using-superpowers",
+      "sessions": 17,
+      "confirmed_reads": 40,
+      "rank": 2,
+      "share_of_tool_sessions_pct": 42.5,
+      "share_of_skill_reading_sessions_pct": 48.57
+    },
+    {
+      "skill": "systematic-debugging",
+      "sessions": 12,
+      "confirmed_reads": 42,
+      "rank": 3,
+      "share_of_tool_sessions_pct": 30.0,
+      "share_of_skill_reading_sessions_pct": 34.29
+    },
+    {
+      "skill": "computer-use",
+      "sessions": 9,
+      "confirmed_reads": 55,
+      "rank": 4,
+      "share_of_tool_sessions_pct": 22.5,
+      "share_of_skill_reading_sessions_pct": 25.71
+    },
+    {
+      "skill": "verification-before-completion",
+      "sessions": 8,
+      "confirmed_reads": 32,
+      "rank": 5,
+      "share_of_tool_sessions_pct": 20.0,
+      "share_of_skill_reading_sessions_pct": 22.86
+    },
+    {
+      "skill": "test-driven-development",
+      "sessions": 8,
+      "confirmed_reads": 27,
+      "rank": 5,
+      "share_of_tool_sessions_pct": 20.0,
+      "share_of_skill_reading_sessions_pct": 22.86
+    },
+    {
+      "skill": "brainstorming",
+      "sessions": 6,
+      "confirmed_reads": 20,
+      "rank": 7,
+      "share_of_tool_sessions_pct": 15.0,
+      "share_of_skill_reading_sessions_pct": 17.14
+    },
+    {
+      "skill": "spreadsheets",
+      "sessions": 6,
+      "confirmed_reads": 14,
+      "rank": 7,
+      "share_of_tool_sessions_pct": 15.0,
+      "share_of_skill_reading_sessions_pct": 17.14
+    },
+    {
+      "skill": "openai-docs",
+      "sessions": 6,
+      "confirmed_reads": 11,
+      "rank": 7,
+      "share_of_tool_sessions_pct": 15.0,
+      "share_of_skill_reading_sessions_pct": 17.14
+    },
+    {
+      "skill": "live2d-psd-splitting",
+      "sessions": 5,
+      "confirmed_reads": 12,
+      "rank": 10,
+      "share_of_tool_sessions_pct": 12.5,
+      "share_of_skill_reading_sessions_pct": 14.29
+    },
+    {
+      "skill": "imagegen",
+      "sessions": 4,
+      "confirmed_reads": 9,
+      "rank": 11,
+      "share_of_tool_sessions_pct": 10.0,
+      "share_of_skill_reading_sessions_pct": 11.43
+    },
+    {
+      "skill": "dispatching-parallel-agents",
+      "sessions": 3,
+      "confirmed_reads": 14,
+      "rank": 12,
+      "share_of_tool_sessions_pct": 7.5,
+      "share_of_skill_reading_sessions_pct": 8.57
+    },
+    {
+      "skill": "executing-plans",
+      "sessions": 2,
+      "confirmed_reads": 5,
+      "rank": 13,
+      "share_of_tool_sessions_pct": 5.0,
+      "share_of_skill_reading_sessions_pct": 5.71
+    },
+    {
+      "skill": "pdf",
+      "sessions": 2,
+      "confirmed_reads": 3,
+      "rank": 13,
+      "share_of_tool_sessions_pct": 5.0,
+      "share_of_skill_reading_sessions_pct": 5.71
+    },
+    {
+      "skill": "documents",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "dsh-message-bridge",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "finishing-a-development-branch",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "gpt-image-2",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "plugin-management",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "requesting-code-review",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "skill-creator",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "verified-jk-migration-cleanup",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "wps-cli",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "write-page",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    },
+    {
+      "skill": "writing-plans",
+      "sessions": 1,
+      "confirmed_reads": 1,
+      "rank": 15,
+      "share_of_tool_sessions_pct": 2.5,
+      "share_of_skill_reading_sessions_pct": 2.86
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-09-29",
+      "tool_active_sessions": 19,
+      "skill_reading_sessions": 14,
+      "confirmed_skill_reads": 81,
+      "target_skill_sessions": 7
+    },
+    {
+      "date": "2026-09-30",
+      "tool_active_sessions": 9,
+      "skill_reading_sessions": 9,
+      "confirmed_skill_reads": 39,
+      "target_skill_sessions": 9
+    },
+    {
+      "date": "2026-10-01",
+      "tool_active_sessions": 8,
+      "skill_reading_sessions": 6,
+      "confirmed_skill_reads": 57,
+      "target_skill_sessions": 6
+    },
+    {
+      "date": "2026-10-02",
+      "tool_active_sessions": 6,
+      "skill_reading_sessions": 6,
+      "confirmed_skill_reads": 151,
+      "target_skill_sessions": 5
+    },
+    {
+      "date": "2026-10-03",
+      "tool_active_sessions": 4,
+      "skill_reading_sessions": 2,
+      "confirmed_skill_reads": 14,
+      "target_skill_sessions": 2
+    },
+    {
+      "date": "2026-10-04",
+      "tool_active_sessions": 1,
+      "skill_reading_sessions": 1,
+      "confirmed_skill_reads": 7,
+      "target_skill_sessions": 1
+    },
+    {
+      "date": "2026-10-05",
+      "tool_active_sessions": 9,
+      "skill_reading_sessions": 9,
+      "confirmed_skill_reads": 74,
+      "target_skill_sessions": 9
+    }
+  ],
+  "caveat": "Personal local observable file reads, not global automatic invocation rate or evidence of effectiveness."
+}

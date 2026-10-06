@@ -22,6 +22,12 @@ Changing routes must respect existing constraints and permissions. This skill do
 
 It is instruction-only guidance, not a new tool or background service. Results depend on the model, tools, task, and user constraints. No fixed improvement in task success rate has been established.
 
+## Who might find it useful
+
+Try it if an agent gives up after one tool error, repeatedly tweaks the same failing request, accepts success responses without checking the target, or stops after a prototype while the authorized integration remains unfinished.
+
+Two attempts without new evidence is a cue to change the hypothesis or verification method, not a cap of two total attempts. Judge usefulness by new evidence, a verified route, an actual result, or an accurately identified blocker. The number of skill reads is not an effectiveness measure.
+
 ## Install in Codex
 
 Ask Codex:
@@ -58,3 +64,21 @@ Read and apply proactive-problem-solving for implementation, troubleshooting, or
 The installable skill contains only `SKILL.md` and `agents/openai.yaml`. It contains no conversation logs, private paths, account configuration, or credentials. The Chinese instructions are an unchanged copy of the author's daily-use version at publication. This English README explains the original rather than defining a separate skill.
 
 Released under the [MIT License](LICENSE). Keep the copyright and license notice when redistributing.
+
+## Observations from actual work
+
+![Evidence and result boundaries from actual records](docs/practical-observations.png)
+
+Reviewed records include a file-backed pre-publication issue list, a test showing a background process actually stopped, and a data review that narrowed a conclusion after finding inconsistent comparison inputs. There are also incomplete tasks and overly broad judgments. These are limited, anonymized observations rather than evidence that the skill caused an improvement.
+
+See the [case descriptions, sampling method, and limitations (Chinese)](docs/practical-observations.md). There was no no-skill control group, some delegated-task context was unavailable, and raw records remain private. No success-rate, time, or token improvement is claimed.
+
+## Supplement: personal usage snapshot
+
+![Seven-day observed skill-read coverage](docs/skill-usage.png)
+
+In my local records for September 29–October 5, 2026 (UTC+08:00), the skill was confirmed read in **29 of 40 tool-active agent sessions (72.5%)**. It ranked first by distinct-session coverage among 25 observed skills. There were 128 confirmed reads; the main comparison deduplicates each session–skill pair.
+
+Sessions can include subagents and forks, rather than 40 independent user conversations. My global working instructions also ask relevant tasks to use this skill, which influences its frequency. The figures describe personal observable file reads, **not an exact automatic invocation rate or an effectiveness benchmark**.
+
+Only anonymous aggregates are public. See the [methodology and limitations (Chinese)](docs/usage-methodology.md), [skill counts](docs/skills.csv), [daily counts](docs/daily.csv), and [aggregate JSON](docs/safe_aggregate.json). The optional [standard-library analysis script](tools/analyze_skill_reads.py) takes source/output directories and dates as arguments. It also produces private audit files; inspect the methodology before sharing its outputs. The script is outside the installable skill and is not needed to use the skill.
