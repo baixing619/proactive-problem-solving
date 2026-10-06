@@ -1,0 +1,6 @@
+interface:
+  display_name: "主动查证与换路"
+  short_description: "遇到实施障碍时主动查证、做最小实测并按证据换路，减少无效求助和重复尝试"
+  default_prompt: "使用 $proactive-problem-solving，先查证当前障碍并做最小验证，在既有约束和授权内持续推进到可核验的结果。"
+policy:
+  allow_implicit_invocation: true
