@@ -1,0 +1,2 @@
+# Preserve frozen comparison inputs and outputs byte-for-byte on every platform.
+docs/comparison-fixtures/** -text
