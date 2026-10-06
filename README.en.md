@@ -30,6 +30,8 @@ Two attempts without new evidence is a cue to change the hypothesis or verificat
 
 For a before/after comparison, track avoidable blockers, user corrections and takeover, verified completion, and elapsed time. Required authorization and scope changes belong in separate categories. Existing records do not establish fewer takeovers or improved efficiency. See the [measurement definitions and comparison method (Chinese)](docs/evaluation.md).
 
+A [three-task reproducible incremental comparison (Chinese)](docs/comparison.md) also found correct authorized artifacts in 3/3 tasks for both conditions, zero avoidable handoff requests for both, and mixed elapsed times. Both inherited existing investigation rules, so this does not establish a stable efficiency or handoff benefit from additionally reading the skill text. Synthetic inputs, outputs and aggregates are public.
+
 ## Install in Codex
 
 Ask Codex:

@@ -1,0 +1,5 @@
+category,status,total_cents
+A,paid,1000
+B,pending,5000
+B,paid,2300
+A,paid,1200
