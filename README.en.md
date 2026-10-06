@@ -4,7 +4,7 @@
 
 A workflow skill I use in my own day-to-day work with AI agents. When implementation or troubleshooting hits an unknown, it asks the agent to investigate, run a small discriminating check, change routes based on evidence, and complete the work already authorized by the user.
 
-The skill addresses early surrender after one failed tool call, repeated attempts that test the same hypothesis, unverified “success” responses, and unnecessary requests for information the agent can find itself.
+I made it because tasks were too often marked “blocked” before investigation, leaving me to find information, choose another route, and take over. It aims to reduce premature stopping, repeated attempts without new evidence, and unnecessary handoffs to the user.
 
 ## Workflow
 
@@ -27,6 +27,8 @@ It is instruction-only guidance, not a new tool or background service. Results d
 Try it if an agent gives up after one tool error, repeatedly tweaks the same failing request, accepts success responses without checking the target, or stops after a prototype while the authorized integration remains unfinished.
 
 Two attempts without new evidence is a cue to change the hypothesis or verification method, not a cap of two total attempts. Judge usefulness by new evidence, a verified route, an actual result, or an accurately identified blocker. The number of skill reads is not an effectiveness measure.
+
+For a before/after comparison, track avoidable blockers, user corrections and takeover, verified completion, and elapsed time. Required authorization and scope changes belong in separate categories. Existing records do not establish fewer takeovers or improved efficiency. See the [measurement definitions and comparison method (Chinese)](docs/evaluation.md).
 
 ## Install in Codex
 
